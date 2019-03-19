@@ -1,1 +1,27 @@
 /*<- Style Mobile - >*/
+
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 0;
+	font-family: OpenSans;
+}
+
+header {
+
+}
+
+.about {
+
+}
+
+.price {
+
+}
+
+@media (max-width: 640px) {
+	header {
+		display: none;
+	}
+}
