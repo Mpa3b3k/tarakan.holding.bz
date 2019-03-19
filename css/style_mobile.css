@@ -125,10 +125,23 @@ header {
 	width: 30vw;
 	box-sizing: border-box;
 	padding: 0.5vw;
+	font-size: 0.9vw;
 }
 
 .price {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #1D7471;
+	width: 100vw;
+	height: 40vw;
+}
 
+.priceCard {
+	width: 20%;
+	height: 80%;
+	background-color: #33CDC7;
+	margin: 1vw;
 }
 
 .services {
