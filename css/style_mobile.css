@@ -9,16 +9,22 @@ body {
 	color: black;
 }
 
+a {
+	text-decoration: none;
+	color: white;
+}
+
 header {
 	display: flex;
 	font-family: OpenSans;
 	width: 100vw;
 	height: 8vw;
-	position: fixed;
+	/*position: fixed;*/
 	text-transform: uppercase;
 	font-size: 1.7vw;
-	background-color: #ffbf00;
-	color: black;
+	/*background-color: #ffbf00;*/
+	background-color: #009B95;
+	color: white;
 }
 
 /*.menu {
@@ -91,9 +97,34 @@ header {
 }
 
 .about {
-	height: 40vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 50vw;
 	width: 100vw;
-	border: 1px solid black;
+}
+
+.content {
+	display: flex;
+	align-items: center;
+	width: 60vw;
+}
+
+.aboutCompany {
+	height: 40vw;
+	width: 30vw;
+	order: 2;
+}
+
+.aboutCompanyText {
+	/*display: flex;*/
+	/*flex-direction: row;
+	align-items: center;
+	justify-content: center;*/
+	order: 1;
+	width: 30vw;
+	box-sizing: border-box;
+	padding: 0.5vw;
 }
 
 .price {
