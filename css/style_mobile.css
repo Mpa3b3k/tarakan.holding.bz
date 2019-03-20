@@ -31,6 +31,11 @@ header {
 	overflow-x: hidden;
 }
 
+.anchor {
+	display: flex;
+	order: 1;
+}
+
 /*.menu {
 	display: flex;
 	align-items: center;
@@ -101,8 +106,39 @@ header {
 	justify-content: center;	
 }
 
+.anchorToTop {
+	width: 1vw;
+	height: 1vw;
+	border-radius: 50%;
+	position: fixed;
+	background-color: #33CDC7;
+	right: 2vw;
+	bottom: 2vw;
+}
+
+.anchorToTop:hover {
+	width: 5vw;
+	height: 5vw;
+	border-radius: 50%;
+	position: fixed;
+	background-color: #33CDC7;
+	right: 1vw;
+	bottom: 1vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.arrow {
+	height: 80%;
+	width: 80%;
+	fill: white;
+	z-index: 1;
+}
+
 .about {
 	display: flex;
+	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 	height: 50vw;
@@ -114,6 +150,7 @@ header {
 	display: flex;
 	align-items: center;
 	width: 60vw;
+	order: 2;
 }
 
 .aboutCompany {
@@ -155,6 +192,7 @@ header {
 	color: white;
 	font-family: OpenSans-Bold;
 	text-transform: uppercase;
+	order: 2;
 }
 
 .priceCards {
@@ -163,6 +201,7 @@ header {
 	justify-content: center;
 	width: 100%;
 	height: 40vw;
+	order: 3;
 }
 
 .priceCard {
@@ -204,22 +243,52 @@ header {
 
 .services {
 	overflow-x: hidden;
+	height: 40vw;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }
 
 .stages {
 	overflow-x: hidden;
+	height: 40vw;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }	
 
 .faq {
 	overflow-x: hidden;
+	height: 40vw;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }
 
 .contacts {
 	overflow-x: hidden;
+	height: 40vw;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }
 
 footer {
 	overflow-x: hidden;
+	height: 40vw;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }
 
 @media (max-width: 640px) {
