@@ -153,6 +153,12 @@ header {
 	order: 2;
 }
 
+.titleAbout {
+	font-family: OpenSans;
+	text-transform: uppercase;
+	font-size: 1.5vw;
+}
+
 .aboutCompany {
 	height: 40vw;
 	width: 30vw;
@@ -160,10 +166,6 @@ header {
 }
 
 .aboutCompanyText {
-	/*display: flex;*/
-	/*flex-direction: row;
-	align-items: center;
-	justify-content: center;*/
 	order: 1;
 	width: 30vw;
 	box-sizing: border-box;
@@ -215,6 +217,19 @@ header {
 	justify-content: flex-end;
 }
 
+.cardTitle {
+	height: 40%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 1.8vw;
+	text-transform: uppercase;
+	color: white;
+	text-align: center;
+	margin: 0.5vw;
+}
+
 .cardContent {
 	background-color: white;
 	width: 100%;
@@ -223,6 +238,9 @@ header {
 	flex-direction: column;
 	align-items: center;
 	justify-content: flex-end;
+	color: #006561;
+	font-size: 3vw;
+	font-family: OpenSans;
 }
 
 .order {
