@@ -172,6 +172,7 @@ header {
 	order: 1;
 	width: 30vw;
 	box-sizing: border-box;
+	text-align: justify;
 	padding: 0.5vw;
 	font-size: 0.9vw;
 }
@@ -347,8 +348,10 @@ header {
 
 .stagesCard .cardText {
 	margin: 1vw;
+	margin-left: 1.5vw;
 	font-size: 1vw;
 	font-family: OpenSans;
+	text-align: justify;
 }
 
 .RedString {
@@ -357,12 +360,31 @@ header {
 
 .faq {
 	overflow-x: hidden;
-	height: 40vw;
+	height: 100vw;
 	width: 100%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+}
+
+.askCard {
+	width: 50%;
+	height: 20vw;
+	background-color: #1D7471;
+	margin: 1vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.ask {
+	align-self: flex-start;
+}
+
+.answer {
+
 }
 
 .contacts {
