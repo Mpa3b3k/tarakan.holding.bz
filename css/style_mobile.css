@@ -21,7 +21,7 @@ header {
 	font-family: OpenSans;
 	/*width: 100vw;*/
 	width: 100%;
-	height: 8vw;
+	height: 7vw;
 	/*position: fixed;*/
 	text-transform: uppercase;
 	font-size: 1.7vw;
@@ -53,39 +53,39 @@ header {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	margin-left: 0.5%;
+	margin: 0.5%;
 }
 
 .menuAbout {
-	width: 7%;
+	width: 10%;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
 
 .menuPrice {
-	width: 6.5%;
+	width: 10%;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
 
 .menuServices {
-	width: 9%;
+	width: 10%;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
 
 .menuStages {
-	width: 15%;
+	width: 16%;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
 
 .menuFaq {
-	width: 22%;
+	width: 11%;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -100,7 +100,7 @@ header {
 }
 
 .menuTelephone {
-	width: 18%;
+	width: 20%;
 	display: flex;
 	align-items: center;
 	justify-content: center;	
@@ -114,6 +114,9 @@ header {
 	background-color: #33CDC7;
 	right: 2vw;
 	bottom: 2vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .anchorToTop:hover {
@@ -217,7 +220,7 @@ header {
 	justify-content: flex-end;
 }
 
-.cardTitle {
+.priceCard .cardTitle {
 	height: 40%;
 	width: 100%;
 	display: flex;
@@ -271,13 +274,86 @@ header {
 
 .stages {
 	overflow-x: hidden;
-	height: 40vw;
+	height: 65vw;
 	width: 100%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	background-color: #1D7471;
 }	
+
+.stageTitle {
+	order: 2;
+	font-size: 3vw;
+	height: 5vw;
+	text-align: center;
+	width: 100%;
+	font-family: OpenSans;
+	color: white;
+	margin-bottom: 0px;
+	text-transform: uppercase;
+}
+
+.stagesCards {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 90%;
+	order: 3;
+}
+
+.stagesCard:nth-child(1) {
+	width: 30vw;
+	height: 20vw;
+	background-color: #5CCDC9;
+	margin: 5vw 2.5vw 2.5vw 5vw;
+}
+
+.stagesCard:nth-child(2) {
+	width: 30vw;
+	height: 20vw;
+	background-color: #5CCDC9;
+	margin: 5vw 5vw 2.5vw 2.5vw;
+}
+
+.stagesCard:nth-child(3) {
+	width: 30vw;
+	height: 20vw;
+	background-color: #5CCDC9;
+	margin: 2.5vw 2.5vw 5vw 5vw;
+}
+
+.stagesCard:nth-child(4) {
+	width: 30vw;
+	height: 20vw;
+	background-color: #5CCDC9;
+	margin: 2.5vw 5vw 5vw 2.5vw;
+} 
+
+.stagesCard .cardTitle {
+	color: white;
+	font-family: OpenSans;
+	text-transform: uppercase;
+	/*margin: 0.5vw 0.5vw 0.5vw 2vw;*/
+	display: flex;
+	align-self: center;
+	justify-content: center;
+	text-align: center;
+	font-size: 1.55vw;
+}
+
+.stagesCard .cardText {
+	margin: 1vw;
+	font-size: 1vw;
+	font-family: OpenSans;
+}
+
+.RedString {
+	margin-left: 1vw;
+}
 
 .faq {
 	overflow-x: hidden;
@@ -311,6 +387,14 @@ footer {
 
 @media (max-width: 640px) {
 	header {
+		display: none;
+	}
+
+	.arrow {
+		display: none;
+	}
+
+	.anchorToTop {
 		display: none;
 	}
 }
