@@ -360,7 +360,7 @@ header {
 
 .faq {
 	overflow-x: hidden;
-	height: 100vw;
+	height: 65vw;
 	width: 100%;
 	display: flex;
 	flex-direction: column;
@@ -370,36 +370,63 @@ header {
 
 .askCard {
 	width: 50%;
-	height: 20vw;
-	background-color: #1D7471;
+	background-color: #33CDC7;
 	margin: 1vw;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
+	order: 2;
 }
 
 .ask {
-	align-self: flex-start;
+	margin-left: 1vw;
+	margin-top: 1vw;
+	height: 20%;
+	text-align: left;
+	width: 80%;
+	color: white;
+	font-family: OpenSans;
+	text-transform: unset;
+	font-size: 1.2vw;
 }
 
 .answer {
-
+	width: 80%;
+	height: 80%;
+	margin-bottom: 2vw;
+	font-size: 0.8vw;
+	font-family: OpenSans;
 }
 
 .contacts {
 	overflow-x: hidden;
-	height: 40vw;
+	height: 60vw;
 	width: 100%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	border-top: 1px solid grey;
+}
+
+.contentBox {
+	order: 2;
+	width: 100%;
+	width: 100%;
+}
+
+.info .content {
+	width: 40%;
+}
+
+.geolocate {
+	width: 40%;
 }
 
 footer {
 	overflow-x: hidden;
-	height: 40vw;
+	height: 10vw;
 	width: 100%;
 	display: flex;
 	flex-direction: column;
