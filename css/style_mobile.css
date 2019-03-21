@@ -11,7 +11,7 @@ body {
 	overflow-x: hidden;
 }
 
-a {
+header a {
 	text-decoration: none;
 	color: white;
 }
@@ -35,18 +35,6 @@ header {
 	display: flex;
 	order: 1;
 }
-
-/*.menu {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	font-size: 1.7vw;
-	text-align: center;
-	margin: 1px;
-	padding: 0.2vw;
-	width: 12.5%;
-
-}*/
 
 .menuLogo {
 	width: 10%;
@@ -186,6 +174,11 @@ header {
 	width: 100%;
 	height: 45vw;
 	overflow-x: hidden;
+}
+
+.price a {
+	text-decoration: none;
+	color: white;
 }
 
 .priceTitle {
@@ -397,41 +390,82 @@ header {
 	margin-bottom: 2vw;
 	font-size: 0.8vw;
 	font-family: OpenSans;
+	text-align: justify;
 }
 
 .contacts {
 	overflow-x: hidden;
-	height: 60vw;
+	/*height: 60vw;*/
 	width: 100%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	border-top: 1px solid grey;
+	margin-top: 5vw;
 }
 
 .contentBox {
 	order: 2;
-	width: 100%;
-	width: 100%;
+	width: 80%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.info {
+	width: 50%;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.info .title {
+	align-self: flex-start;
+	font-size: 3vw;
 }
 
 .info .content {
-	width: 40%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+	font-size: 1.5vw;
+	text-align: justify;
+}
+
+.content a {
+	text-decoration: none;
+	color: black;
 }
 
 .geolocate {
-	width: 40%;
+	width: 50%;
 }
 
 footer {
+	margin-top: 3vw;
 	overflow-x: hidden;
-	height: 10vw;
+	height: 3vw;
 	width: 100%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	background-color: #006561;
+	font-size: 0.8vw;
+	color: white;
+}
+
+.creator {
+	font-size: 0.7vw;
+	color: #5CCDC9;
+}
+
+.creator a {
+	text-decoration: none;
+	color: #5CCDC9;
 }
 
 @media (max-width: 640px) {
