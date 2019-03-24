@@ -411,14 +411,11 @@
 	}
 
 	.menuLogo {
-		/*width: 10%;*/
 		height: 80%;
-		margin: 1vw;
-		/*height: calc(width * 100%)px;*/
+		margin: 0.8vw 0.5vw 0.2vw 2vw;
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		/*margin: 0.5%;*/
 	}
 
 	.menuAbout {
@@ -532,6 +529,7 @@
 
 	.aboutCompany {
 		width: 30vw;
+		height: 30vw;
 		order: 2;
 	}
 
