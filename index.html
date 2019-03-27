@@ -9,6 +9,9 @@
 	 <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" >
 	 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" >
 	<title>Борьба с тараканами</title>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/jquery.jbcallme.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/jquery.jbcallme.css">
 </head>
 <body>
 	<a href="#top" class="anchorToTop">
@@ -49,7 +52,7 @@
 				</h3>
 				<div class="cardContent">
 					<p>500 рублей</p>
-					<a href="#contacts" class="order">
+					<a href="#contacts" class="callme_order_btn order">
 						Заказать
 					</a>
 				</div>
@@ -60,7 +63,7 @@
 				</h3>
 				<div class="cardContent">
 					<p>600 рублей</p>
-					<a href="#contacts" class="order">
+					<a href="#contacts" class="callme_order_btn order">
 						Заказать
 					</a>
 				</div>
@@ -71,7 +74,7 @@
 				</h3>
 				<div class="cardContent">
 					<p>700 рублей</p>
-					<a href="#contacts" class="order">
+					<a href="#contacts" class="callme_order_btn order">
 						Заказать
 					</a>
 				</div>
@@ -82,7 +85,7 @@
 				</h3>
 				<div class="cardContent">
 					<p>800 рублей</p>
-					<a href="#contacts" class="order">
+					<a href="#contacts" class="callme_order_btn order">
 						Заказать
 					</a>
 				</div>
@@ -227,5 +230,26 @@
 		© 2019 - «Таракан Холдинг» Все права защищены.
 		<span class="creator" >by Misha Onufriev - <a href="mailto:misha.onufriev@gmail.com">misha.onufriev@gmail.com</a></span>
 	</footer>
+	<script>
+		$(function() {
+	    $('.callme_order_btn').jbcallme({
+	        postfix: "callme_order", 
+		        fields: {
+		            time: {
+		                label: "Удобное для звонка время",
+		                placeholder: "17:30 - 20:00",
+		            },
+		            descr: {
+		                label: "Примечание",
+		                type: "textarea",
+		            },
+		            action: {
+		                type: "hidden",
+		                value: "callme_order",
+		            },
+	        	},
+	    	});
+		});
+	</script>
 </body>
 </html>
